@@ -5,7 +5,6 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
   console.log('ボタンをクリックしました')
 });
-btn.addEventListener('click', () => {
-  // li要素を新しく作成する
-  const textContent = document.createElement('h2');})
-  textContent = 'ボタンをクリックしました';
+
+const text = document.getElementById('text');
+text.textContent = 'ボタンをクリックしました';
